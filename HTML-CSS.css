@@ -1,41 +1,4 @@
-body {
-	font-family: 'Open Sans', sans-serif;
-	padding: 0px 50px 0px 50px;
-	background-image: url("background.png");
-	background-repeat: repeat;
-}
-h1 {
-	font-family: 'Oswald', sans-serif;
-	color: #000000;
-}
-h2 {
-	color: #000000;
-}
-p {
-	color: #000000;
-}
-.boxed {
-	border: solid 3px #000000;
-	border-radius: 15px;
-	background-color: #ffffff;
-	display: inline-block;
-}
-ol, ul {
-	padding: 10px 50px 10px 50px;
-}
-a:link {
-	text-decoration: none;
-	color: #000077;
-}
-a:visited {
-	text-decoration: none;
-	color: #000077;
-}
-a:hover {
-	text-decoration: none;
-	color: #0000cc;
-}
-a:active {
-	text-decoration: none;
-	color: #0000ff;
+h1{
+	text-align: center;
+	font-family: 'Comic Sans MS', 'Comic Sans', sans-serif;
 }
