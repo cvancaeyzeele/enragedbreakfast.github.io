@@ -1,0 +1,75 @@
+body{
+  background-color: #7C1E2D;
+  margin: 20px;
+  text-align: center;
+}
+
+    h1, h2{
+      font-family: Lora, 'MS Serif', 'New York', Georgia, serif;
+      color: #FFFDFA;
+    }
+
+    table{
+      background-color: #FFFDFA;
+      border: 2px #9B8347 solid;
+      border-collapse: collapse;
+      padding: 5px;
+      width: 40%;
+      table-layout: fixed;
+    }
+
+        th, td{
+          border-bottom: 2px #9B8347 solid;
+          padding: 10px;
+          font-family: 'Open Sans', sans-serif;
+        }
+
+        thead{
+          text-align: center;
+        }
+
+            .name{
+              width: 40%;
+            }
+
+            .data{
+              width: 12%;
+            }
+
+        tbody th{
+          text-align: left;
+        }
+
+        td{
+          text-align: center;
+        }
+
+        tr:nth-child(even){
+          background-color: #F5F5F2;
+        }
+
+        caption{
+          font-size: 20px;
+          font-family: 'Lora', 'MS Serif', 'New York', Georgia, serif;
+          color: #FFFDFA;
+          padding-bottom: 10px;
+        }
+
+        .rows:hover{
+          background-color: #EBEBE8;
+        }
+
+    ul{
+      text-align: center;
+      list-style-position: inside;
+      font-family: 'Open Sans', sans-serif;
+      color: #FFFDFA;
+    }
+
+.premierleague{
+
+}
+
+.history{
+
+}
