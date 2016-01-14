@@ -2,21 +2,37 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Arsenal F.C.</title>
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,700" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
+    <title>Home | Arsenal F.C.</title>
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700"
+      rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300"
+      rel="stylesheet" type="text/css" />
     <link rel="stylesheet" type="text/css" href="assignment1.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="cannon.png" />
   </head>
 
   <body>
     <h1>Arsenal Football Club</h1>
-    <h2>Est. 1886</h2>
+    <h2 class="founded">Est. 1886</h2>
 
-    <table id="premierleague" align="center">
+    <h2 class="sectionname">The Club</h2>
+    <p>The club's colours are traditionally red and white. Founded in Woolwich,
+        south-east London, in 1913 they moved north across the city to Arsenal
+        Stadium in Highbury. In 2006, they moved to the Emirates Stadium in nearby
+        Holloway. Arsenal contest the North London derby with rivals Tottenham Hotspur.</p>
+    <p>Arsenal has one of the highest incomes and largest fanbases in the world.
+        The club was named the seventh most valuable association football club,
+        valued at $1.3 billion, in 2015.</p>
+    <p>Read about the club's history <a href="page2.html">here.</a></p>
+    <p class="source">Information taken from
+      <a href="https://en.wikipedia.org/wiki/Arsenal_F.C.">
+        Wikipedia.org</a></p>
+
+    <table class="premierleague" align="center">
       <caption><b>Premier League Top 5</b></caption>
       <thead>
         <tr>
-          <th class="name">Club</th>
+          <th class="clubname">Club</th>
           <th class="data">GP</th>
           <th class="data">W</th>
           <th class="data">D</th>
@@ -68,6 +84,10 @@
       </tbody>
     </table>
 
+    <p class="source">Table statistics taken from
+      <a href="http://www.premierleague.com/en-gb/matchday/league-table.html">
+        Premierleague.com</a></p>
+
     <h2>Upcoming Fixtures (Central time):</h2>
     <ul>
       <li>Jan. 13, 2 pm @ Liverpool - Premier League</li>
@@ -76,6 +96,18 @@
       <li>Jan. 30, 9 am vs. Burnley FC - FA Cup</li>
       <li>Feb. 2, 1:45 vs. Southampton - Premier League</li>
     </ul>
-    <!-- Add a legend for table abbreviations -->
+    <p class="source">Fixture schedule taken from
+      <a href="http://www.arsenal.com/fixtures/first-team">Arsenal.com</a></p>
+
+    <div class="images">
+      <a href="emirates.jpg">
+        <img src="emirates-thumbnail.jpg" alt="Emirates Stadium"></a>
+      <p class="source">Emirates Stadium, home of the Gunners</p>
+    </div>
+    <div class="images">
+      <a href="facupparade.jpg">
+        <img src="facupparade-thumbnail.jpg" alt="FA Cup Parade 2015"></a>
+      <p class="source">Arsenal celebrating their 2nd consecutive FA Cup win</p>
+    </div>
   </body>
 </html>
