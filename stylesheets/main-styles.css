@@ -1,30 +1,52 @@
 /*
-	Styling for the header, content, and footer of all pages
+	Styling for the home page
+  #0D2C54
+  #0A213E
  */
 
-body, div, span, h1, h2, h3, p, img, header, footer, nav, section {
-  padding: 0;
-  margin: 0;
-  border: 0;
-}
+.header, .about, .skills{
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  vertical-align: middle;
 
-body, html {
-  height: 200%;
-}
-
-.header, .about, .skills, .footer {
-    padding: 0px;
-    margin: 0px;
-    width: 100%;
-    height:100%;
-    position:absolute;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 .header {
-    background-image: url("../images/header-background.png");
-    background-repeat: repeat;
-    top:0px;
+  background-image: url("../images/header-background.png");
+  background-repeat: repeat;
 }
+
+  .headercontent {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    height: 75%;
+    text-align: center;
+
+    border: 5px solid #FFF;
+    border-radius: 10px;
+  }
+
+    .headercontent h1 {
+      position: relative;
+      top: 25%;
+
+      font-size: 50px;
+    }
+
+    .headercontent p {
+      position: relative;
+      top: 30%;
+      width: 80%;
+      margin: auto;
+
+      font-size: 35px;
+    }
 
 .about {
     background-image: url("../images/about-background.png");
@@ -32,25 +54,26 @@ body, html {
     top:100%;
 }
 
+  .aboutcontent {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    height: 80%;
+    text-align: center;
+  }
+
 .skills {
     background-image: url("../images/skills-background.png");
     background-repeat: repeat;
     top:200%;
 }
 
-.footer {
-    background-image: url("../images/contact-background.png");
-    background-repeat: repeat;
-    top:300%;
-}
-
-a {
-  margin: 0;
-  padding: 0;
-  font-size: 100%;
-  text-decoration: none;
-}
-
-.nav ul {
-  list-style: none;
-}
+  .skillscontent {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    height: 80%;
+    text-align: center;
+  }

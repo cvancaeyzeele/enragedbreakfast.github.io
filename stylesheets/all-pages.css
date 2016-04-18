@@ -1,0 +1,130 @@
+/*
+	Styling for the header, content, and footer of all pages
+  #0D2C54
+  #0A213E
+ */
+
+body, div, span, h1, h2, h3, p, img, header, footer, nav, section {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+body, html {
+  height: 200%;
+  font-family: Montserrat, sans-serif;
+  color: #FFF;
+}
+
+a {
+  text-decoration: none;
+  list-style: none;
+  color: #FFF;
+}
+
+nav {
+  background-color: #0A213E;
+  -webkit-box-shadow: inset -7px 0 9px -7px rgba(0,0,0,0.7);
+  -moz-box-shadow: inset -7px 0 9px -7px rgba(0,0,0,0.7);
+  box-shadow: inset -7px 0 9px -7px rgba(0,0,0,0.7);
+}
+
+  nav a, nav li {
+    color: #FFF;
+    list-style: none;
+  }
+
+  nav a:link, nav a:visited {
+    color: #FFF;
+  }
+
+  nav a:hover {
+
+  }
+
+  nav a:active {
+
+  }
+
+.panel {
+  position: fixed;
+  left: -15.625em; /*left or right and the width of your navigation panel*/
+  width: 15.625em; /*should match the above value*/
+}
+
+/* Pushes all content to the side when navigation button is clicked */
+.wrap {
+  position: relative;
+}
+
+.heading {
+  font-size: 40px;
+}
+
+.menu-link {
+  position: relative;
+  left: 20px;
+  top: 10px;
+
+  color: #FFF;
+  font-size: 30px;
+}
+
+.footer {
+  background-color: #0D2C54;
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  bottom: 0px;
+
+  -webkit-box-shadow: 0px -1px 4px 1px rgba(0,0,0,0.25);
+  -moz-box-shadow: 0px -1px 4px 1px rgba(0,0,0,0.25);
+  box-shadow: 0px -1px 4px 1px rgba(0,0,0,0.25);
+}
+
+  .footer p {
+    display: inline;
+    padding-left: 10%;
+
+    font-size: 25px;
+    white-space: nowrap;
+  }
+
+  .footer ul {
+    position: fixed;
+    right: 10%;
+    bottom: 0px;
+    height: 70px;
+    display: inline;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+    .footer li {
+      list-style: none;
+      display: inline;
+      padding: 10px;
+    }
+
+      .footer a {
+        display: inline-block;
+        padding: 0px 10px;
+        line-height: 70px;
+
+        font-size: 30px;
+      }
+
+      .footer a:link, .footer a:visited {
+        color: #FFF;
+      }
+
+      .footer a:hover {
+        color: #FFF;
+      }
+
+      .footer a:active {
+        color: #FFF;
+      }
