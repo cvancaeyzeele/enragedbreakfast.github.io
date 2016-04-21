@@ -20,7 +20,7 @@
   background-repeat: repeat;
 }
 
-  .headercontent {
+  #headercontent {
     position: absolute;
     top: 50%; left: 50%;
     transform: translate(-50%,-50%);
@@ -32,16 +32,26 @@
     border-radius: 10px;
   }
 
-    .headercontent h1 {
+    #headercontent img {
       position: relative;
-      top: 25%;
+      top: 8%;
+      width:128px;
+      margin: 10px;
+
+      border:10px solid #FFF;
+      border-radius: 100%;
+    }
+
+    #headercontent h1 {
+      position: relative;
+      top: 13%;
 
       font-size: 50px;
     }
 
-    .headercontent p {
+    #headercontent p {
       position: relative;
-      top: 30%;
+      top: 20%;
       width: 80%;
       margin: auto;
 
@@ -54,13 +64,68 @@
     top:100%;
 }
 
-  .aboutcontent {
+  #aboutcontent {
     position: absolute;
     top: 50%; left: 50%;
     transform: translate(-50%,-50%);
     width: 80%;
-    height: 80%;
+    height: 75%;
     text-align: center;
+
+    border: 5px solid #FFF;
+    border-radius: 10px;
+  }
+
+  #aboutcontent h2 {
+    position: relative;
+    top: 8%;
+  }
+
+  #aboutcontent p {
+    position: relative;
+    top: 11%;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 10px;
+
+    text-align: center;
+    font-size: 35px;
+  }
+
+  #aboutcontent ul {
+    position: relative;
+    top: 14%;
+    width: 80%;
+    margin: auto;
+    padding: 0;
+
+    text-align: center;
+    list-style: none;
+  }
+
+  #aboutcontent li {
+    padding-bottom: 20px;
+
+    font-size: 27px;
+    font-weight: normal;
+  }
+
+  #aboutcontent .more {
+    position: relative;
+    top: 30%;
+  }
+
+  #aboutcontent a:link, #aboutcontent a:visited {
+    text-decoration: none;
+    font-size: 30px;
+  }
+
+  #aboutcontent a:hover {
+    color: #E8E8E8;
+  }
+
+  #aboutcontent a:active {
+    color: #C9C9C9;
   }
 
 .skills {
@@ -69,11 +134,85 @@
     top:200%;
 }
 
-  .skillscontent {
+  #skillscontent {
     position: absolute;
     top: 50%; left: 50%;
     transform: translate(-50%,-50%);
     width: 80%;
-    height: 80%;
+    height: 75%;
     text-align: center;
+
+    border: 5px solid #FFF;
+    border-radius: 10px;
+  }
+
+  #skillscontent h2 {
+    position: relative;
+    top: 8%;
+  }
+
+  #skillscontent p {
+    position: relative;
+    top: 11%;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 10px;
+
+    text-align: center;
+    font-size: 35px;
+  }
+
+  #skillsleft {
+    position: relative;
+    top: 10%;
+    width: 30%;
+    margin: auto;
+    padding: 0;
+    padding-left: 20%;
+    float: left;
+
+    text-align: center;
+  }
+
+  #skillsright {
+    position: relative;
+    top: 10%;
+    width: 30%;
+    margin: auto;
+    padding: 0;
+    padding-right: 20%;
+    float: right;
+
+    text-align: center;
+  }
+
+  #skillscontent ul {
+    padding: 0;
+
+    list-style: none;
+  }
+
+  #skillscontent li {
+    padding-bottom: 20px;
+
+    font-size: 27px;
+    font-weight: normal;
+  }
+
+  #skillscontent .more {
+    position: relative;
+    top: 77%;
+  }
+
+  #skillscontent a:link, #skillscontent a:visited {
+    text-decoration: none;
+    font-size: 30px;
+  }
+
+  #skillscontent a:hover {
+    color: #E8E8E8;
+  }
+
+  #skillscontent a:active {
+    color: #C9C9C9;
   }

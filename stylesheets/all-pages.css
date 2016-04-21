@@ -1,7 +1,8 @@
 /*
-	Styling for the header, content, and footer of all pages
-  #0D2C54
-  #0A213E
+    Styling that applies to all pages
+    Includes navigation, footer, and general design of pages
+    #0D2C54
+    #0A213E
  */
 
 body, div, span, h1, h2, h3, p, img, header, footer, nav, section {
@@ -14,6 +15,7 @@ body, html {
   height: 200%;
   font-family: Montserrat, sans-serif;
   color: #FFF;
+  letter-spacing: 2px;
 }
 
 a {
@@ -30,6 +32,8 @@ nav {
 }
 
   nav a, nav li {
+    padding-top: 18px;
+    font-size: 24px;
     color: #FFF;
     list-style: none;
   }
@@ -39,11 +43,12 @@ nav {
   }
 
   nav a:hover {
-
+    color: #E3E3E3;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
   }
 
   nav a:active {
-
+    color: #C9C9C9;
   }
 
 .panel {
@@ -58,7 +63,8 @@ nav {
 }
 
 .heading {
-  font-size: 40px;
+  font-size: 45px;
+  text-align: center;
 }
 
 .menu-link {
@@ -67,7 +73,7 @@ nav {
   top: 10px;
 
   color: #FFF;
-  font-size: 30px;
+  font-size: 40px;
 }
 
 .footer {
@@ -91,6 +97,7 @@ nav {
     font-size: 25px;
     white-space: nowrap;
   }
+
 
   .footer ul {
     position: fixed;
@@ -122,9 +129,9 @@ nav {
       }
 
       .footer a:hover {
-        color: #FFF;
+        color: #E3E3E3;
       }
 
       .footer a:active {
-        color: #FFF;
+        color: #C9C9C9;
       }

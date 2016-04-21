@@ -131,7 +131,7 @@
             normalScrollElements: null,
             scrollOverflow: false,
             scrollOverflowHandler: defaultScrollHandler,
-            touchSensitivity: 4,
+            touchSensitivity: 5,
             normalScrollElementTouchThreshold: 5,
 
             //Accessibility
