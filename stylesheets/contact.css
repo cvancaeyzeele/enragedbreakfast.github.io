@@ -2,3 +2,167 @@ html {
   background-image: url("../images/contact-background.png");
   background-repeat: repeat;
 }
+
+textarea {
+    resize: none;
+}
+
+#form {
+    width: 80%;
+    height: 75%;
+    max-height: 75%;
+    margin: auto;
+
+    text-align: center;
+    border: 5px solid #FFF;
+    border-radius: 10px;
+}
+
+h2 {
+    padding-top: 20px;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    margin-right: 10px;
+
+    text-align: right;
+    font-size: 20px;
+}
+
+input {
+    display: inline-block;
+    vertical-align: middle;
+    height: 16px;
+}
+
+textarea {
+    vertical-align: top;
+    height: 75px;
+}
+
+input[type=text], input[type=tel],
+input[type=email], textarea {
+    width: 200px;
+}
+
+fieldset {
+    border: 0;
+    float: none;
+    width: auto;
+    border: 0 none #FFF;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+#submit {
+    position: relative;
+    right: 10px;
+    height: 50px;
+    width: 100px;
+
+    font-size: 20px;
+    border-radius: 7px;
+    color: #FFF;
+    background-color: #00A6ED;
+    border-bottom: 5px solid #008DC7;
+    text-shadow: 0px -2px #008DC7;
+
+    /* Animation */
+    transition: all 0.1s;
+    -webkit-transition: all 0.1s;
+}
+
+#submit:hover, #submit:focus {
+    color: #FFF;
+    outline: none;
+}
+
+#submit:active {
+    transform: translate(0px,5px);
+    -webkit-transform: translate(0px,5px);
+    border-bottom: 1px solid;
+}
+
+#resetform {
+    position: relative;
+    left: 10px;
+    height: 50px;
+    width: 130px;
+
+    font-size: 20px;
+    border-radius: 7px;
+    color: #FFF;
+    background-color: #00A6ED;
+    border-bottom: 5px solid #008DC7;
+    text-shadow: 0px -2px #008DC7;
+
+    /* Animation */
+    transition: all 0.1s;
+    -webkit-transition: all 0.1s;
+}
+
+#resetform:hover, #resetform:focus {
+    color: #FFF;
+    outline: none;
+}
+
+#resetform:active {
+    transform: translate(0px,5px);
+    -webkit-transform: translate(0px,5px);
+    border-bottom: 1px solid;
+}
+
+input[type=text], input[type=tel], input[type=email], textarea {
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;
+    border: 1px solid #DDDDDD;
+}
+
+input[type=text]:focus, input[type=tel]:focus, input[type=email]:focus, textarea:focus {
+    box-shadow: 0 0 5px rgba(81, 203, 238, .46);
+    padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;
+    border: 1px solid rgba(13, 44, 84, 0.46);
+
+    background-color: #E9E9E9;
+    color: #0D2C54;
+}
+
+.errorField {
+    box-shadow: 0 0 5px rgba(246, 81, 29, 0.6);
+    padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;
+    border: 1px solid rgba(13, 44, 84, 0.46);
+}
+
+.error {
+    position: relative;
+    left: 83px;
+    down: 5px;
+    width: 200px;
+    margin: auto;
+    padding: 3px;
+    padding-bottom: 6px;
+    vertical-align: middle;
+
+    text-align: center;
+    background-color: rgba(246, 81, 29, 0.5);
+    color: #FFF;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
