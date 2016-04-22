@@ -34,9 +34,9 @@
 
     #headercontent img {
       position: relative;
-      top: 10%;
       width:128px;
       margin: 10px;
+      margin-top: 70px;
 
       border:10px solid #FFF;
       border-radius: 100%;
@@ -44,14 +44,14 @@
 
     #headercontent h1 {
       position: relative;
-      top: 13%;
+      top: 5%;
 
       font-size: 50px;
     }
 
     #headercontent p {
       position: relative;
-      top: 20%;
+      top: 10%;
       width: 80%;
       margin: auto;
 

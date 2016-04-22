@@ -7,11 +7,6 @@
 * Last Modified: 4.21.2016
 */
 
-// Uses a regex to remove spaces from a string.
-function trim(str) {
-    return str.replace(/^\s+|\s+$/g,"");
-}
-
 /*
  * Checks if a text field has input
  *
