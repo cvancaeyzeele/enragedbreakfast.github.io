@@ -8,6 +8,17 @@
 */
 
 /*
+ * Removes white space from a string value.
+ *
+ * return  A string with leading and trailing white-space removed.
+ */
+function trim(str)
+{
+    // Uses a regex to remove spaces from a string.
+    return str.replace(/^\s+|\s+$/g,"");
+}
+
+/*
  * Checks if a text field has input
  *
  * param textFieldElement		A text field input element object
