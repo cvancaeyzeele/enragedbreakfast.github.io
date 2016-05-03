@@ -130,7 +130,7 @@ function errorCheck() {
             // Check if phone number is ten digits
             if (textField.value.length != 10) {
                 document.getElementById(requiredFields[i] + "_lengtherror").style.display = "block";
-                
+
                 if (!hasErrors) {
                     textField.focus();
                     textField.select();
@@ -139,6 +139,7 @@ function errorCheck() {
                 hasErrors = true;
                 textField.className += " errorField";
             }
+            // ????
             // Check if phone number is numeric
             else if (!isNaN(phone)) {
                 document.getElementById(requiredFields[i] + "_formaterror").style.display = "none";
@@ -205,4 +206,3 @@ function onLoad() {
 
 // Add document load event listener
 document.addEventListener("DOMContentLoaded", onLoad, false);
-
